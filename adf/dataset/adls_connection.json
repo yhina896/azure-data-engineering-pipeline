@@ -1,0 +1,83 @@
+{
+	"name": "adls_connection",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "survived",
+				"type": "String"
+			},
+			{
+				"name": "pclass",
+				"type": "String"
+			},
+			{
+				"name": "sex",
+				"type": "String"
+			},
+			{
+				"name": "age",
+				"type": "String"
+			},
+			{
+				"name": "sibsp",
+				"type": "String"
+			},
+			{
+				"name": "parch",
+				"type": "String"
+			},
+			{
+				"name": "fare",
+				"type": "String"
+			},
+			{
+				"name": "embarked",
+				"type": "String"
+			},
+			{
+				"name": "class",
+				"type": "String"
+			},
+			{
+				"name": "who",
+				"type": "String"
+			},
+			{
+				"name": "adult_male",
+				"type": "String"
+			},
+			{
+				"name": "deck",
+				"type": "String"
+			},
+			{
+				"name": "embark_town",
+				"type": "String"
+			},
+			{
+				"name": "alive",
+				"type": "String"
+			},
+			{
+				"name": "alone",
+				"type": "String"
+			}
+		]
+	}
+}
