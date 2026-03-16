@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv"
+				"relativeUrl": "titanic.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
