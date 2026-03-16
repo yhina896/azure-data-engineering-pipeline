@@ -1,0 +1,9 @@
+{
+	"name": "adf-data-engineering-demo-kvc",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2176c6e1-803f-4cca-98df-69d119d36e5a",
+		"tenantId": "93b0be1a-a489-445c-97cc-21276aa8e9d5"
+	}
+}
